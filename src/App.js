@@ -28,7 +28,7 @@ function App() {
         </ul>
       </nav>
 
-      <h1>Student Registration Form</h1>
+      <h1>Student Registration Form -Github Demo</h1>
 
       <form className="student-form" onSubmit={handleSubmit}>
         <label>Name:</label>
