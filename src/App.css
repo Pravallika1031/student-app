@@ -1,24 +1,28 @@
-.navbar {
+.student-form {
+  width: 300px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.student-form label {
+  display: block;
+  margin-top: 15px;
+}
+
+.student-form input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+.student-form button {
+  margin-top: 20px;
+  padding: 10px 20px;
   background-color: #222;
   color: white;
-  padding: 15px 30px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.navbar ul {
-  display: flex;
-  list-style: none;
-  gap: 25px;
-}
-
-.navbar a {
-  color: white;
-  text-decoration: none;
-}
-
-h1 {
-  text-align: center;
-  margin-top: 50px;
+  border: none;
+  cursor: pointer;
 }
